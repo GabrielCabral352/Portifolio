@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.header_container{
+    width: 100dvw;
+    height: clamp(4rem, 5rem, 6rem);
+    background-color: #0A1115;
+    display: flex;
+    flex-direction: row;
+}
+
+.left_content{
+    height: 100%;
+    width: 40%;
+    background-color: none;
+    display: flex;
+    align-items: center;
+}
+.left_content > img{
+    margin-left: 5%;
+    height: 2.5rem
+}
+.right_content{
+    height: 100%;
+    width: 60%;
+    background-color: none;
+}
+.hamb_menu{
+    right: 10px;
+    top: 10px;
+    fill: white;
+    display: none;
+}
+.hamb_menu > rect{
+    rx: 5px;
+}
+.__nav_content{
+    height: 100%;
+}
+.__nav_content > .nav_area{
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    margin-right: 100px;
+    background-color: none;
+    float: right;
+    font-size: clamp(1rem, 4vw, 1.2rem); 
+}
+.__nav_item{
+    list-style-type: none;
+    padding: 5px;
+}
+.__nav_item > a{
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: white;
+    padding-bottom: 5px;
+}
+
+.__nav_item > a:hover{
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: #188E56;
+    border-bottom: 2px solid;
+    transition: 0.3s ease;
+}
+.__nav_item > a[tabindex]:focus{
+    color: #188E56;
+    border-bottom: 2px solid;
+    transition: 0.3s ease;
+}
+.bc_holder{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: none;
+    z-index: 30;
+    display: none;
+}
+
+@media only screen and (max-width: 950px)  {
+
+    
+    .right_content{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .__nav_content{
+        position: absolute;
+        top: 0;
+        display: none;
+        z-index: 100;
+    }
+    .hamb_menu{
+        display: block;
+        margin-right: 10px;
+        position:relative;
+        z-index: 100;
+    }
+    .__nav_content > .nav_area{
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: flex-start;
+        margin-right: 0px;
+        margin-top: 5rem
+        
+    }
+    .__nav_item{
+        width: 150px;
+        background-color: #0a111598;
+        text-align: right;
+        position:relative;
+        z-index: 100;
+    }
+    .__nav_item > a{
+        
+        width: 200px;
+        color: white;
+        margin-right: 10px;
+        margin-top: 4rem;
+    }
+    .__nav_item > a:hover{
+        border-bottom: 0px;
+    }
+    .__nav_item > a[tabindex]:focus{
+        color: #188E56;
+        border-bottom: 0px;
+        transition: 0.3s ease;
+    }
+    .__nav_content:target{
+        display: block;
+    }
+    .__nav_content:target + #bc_holder{
+        display: block;
+
+    }
+    
+}
