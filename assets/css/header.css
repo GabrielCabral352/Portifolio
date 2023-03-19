@@ -113,7 +113,7 @@
     }
     .__nav_item{
         width: 150px;
-        background-color: #0a111598;
+        background-color: #151C2298;
         text-align: right;
         position:relative;
         z-index: 100;
@@ -143,3 +143,10 @@
     }
     
 }
+
+.body_data{
+    width: 100dvw;
+    height: calc(100% - 5rem);
+}
+
+

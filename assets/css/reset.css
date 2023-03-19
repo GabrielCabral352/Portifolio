@@ -5,7 +5,11 @@
     box-shadow: unset;
 }
 body{
-    background-color: #1F282F;
+    background-color: #151C22;
+    background-image: url(../imgs/stars.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
     
 }
 html, body {
@@ -13,4 +17,5 @@ html, body {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
+    
 }
