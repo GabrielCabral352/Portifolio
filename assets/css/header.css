@@ -26,7 +26,6 @@
 }
 .hamb_menu{
     right: 10px;
-    top: 10px;
     fill: white;
     display: none;
 }
@@ -92,14 +91,15 @@
     .__nav_content{
         position: absolute;
         top: 0;
+        right: 0;
         display: none;
-        z-index: 100;
+        
     }
     .hamb_menu{
         display: block;
         margin-right: 10px;
         position:relative;
-        z-index: 100;
+        z-index: 20;
     }
     .__nav_content > .nav_area{
 
@@ -108,7 +108,7 @@
         align-items: end;
         justify-content: flex-start;
         margin-right: 0px;
-        margin-top: 5rem
+        margin-top: 5rem;
         
     }
     .__nav_item{
@@ -123,7 +123,7 @@
         width: 200px;
         color: white;
         margin-right: 10px;
-        margin-top: 4rem;
+        
     }
     .__nav_item > a:hover{
         border-bottom: 0px;
@@ -135,6 +135,7 @@
     }
     .__nav_content:target{
         display: block;
+
     }
     .__nav_content:target + #bc_holder{
         display: block;
