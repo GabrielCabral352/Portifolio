@@ -109,11 +109,12 @@
         justify-content: flex-start;
         margin-right: 0px;
         margin-top: 5rem;
+        height: 500px;
         
     }
     .__nav_item{
         width: 150px;
-        background-color: #151C2298;
+        background-color: #151c22ab;
         text-align: right;
         position:relative;
         z-index: 100;

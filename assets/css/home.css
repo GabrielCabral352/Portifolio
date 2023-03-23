@@ -9,6 +9,8 @@
 
 .content_body_home > .container > .img_side > .img_holder > img{
     width: 35dvw;
+    padding-right: 100px;
+    
 }
 .content_body_home > .container{
     width: 100%;
@@ -20,7 +22,18 @@
 .content_body_home > .container > .text_side{
     width: 60%;
     background-color: none;
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.content_body_home > .container > .text_side > .text_holder > .desc > .greetings{
+    color: white;
+    font-size: 4rem;
+    background-color: none;
+    font-weight: bold;
 }
 .content_body_home > .container > .img_side{
     width: 40%;
@@ -28,4 +41,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 950px)  {
+    .content_body_home > .container{
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+    .content_body_home > .container > .img_side{
+    
+        width: 100%;
+        height:auto;
+        padding-top: 3dvh;
+
+    }
+
+    .content_body_home > .container > .text_side{
+        width: 100%;
+
+        
+    }
+    .content_body_home > .container > .img_side > .img_holder > img{
+        height: auto;
+        width: 80dvw;
+        padding-right: 0px;
+    }
 }
