@@ -15,3 +15,8 @@ function rebuildPage(){
         });
     }); 
 }
+
+
+function redirectAbout(){
+    document.getElementById("about").click()
+}

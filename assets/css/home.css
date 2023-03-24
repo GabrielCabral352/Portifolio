@@ -27,14 +27,66 @@
     justify-content: center;
     align-items: center;
     
+    
 }
+.content_body_home > .container > .text_side > .text_holder{
+    width: 90%;
+    background-color: none;
+    padding: 0 30px 0 5.5dvw;
+
+}
+
 
 .content_body_home > .container > .text_side > .text_holder > .desc > .greetings{
     color: white;
-    font-size: 4rem;
+    font-size: 4.5dvw;
     background-color: none;
     font-weight: bold;
 }
+.content_body_home > .container > .text_side > .text_holder > .desc > .my_name{
+    color: white;
+    font-size: 5.5dvw;
+    font-weight: bold;
+}
+
+.content_body_home > .container > .text_side > .text_holder > .desc > .skills{
+    color: white;
+    font-size: 4dvw;
+    font-weight: bold;
+}
+
+.content_body_home > .container > .text_side > .text_holder > .desc > .skills > span{
+    color: #F0AF2C;
+}
+.content_body_home > .container > .text_side > .text_holder > .desc > .my_name > span{
+    color: #188E56;
+}
+.content_body_home > .container > .text_side > .text_holder > .about_button{
+    text-decoration: none;
+    
+}
+.content_body_home > .container > .text_side > .text_holder > .about_button>p{
+    
+    color: white;
+    background-color: #1F282F;
+    border: 2px solid #1F282F;
+    width: 150px;
+    height: 45px;
+    font-size: 1.1dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.content_body_home > .container > .text_side > .text_holder > .about_button>p:hover{
+    border: 2px solid #0A1115;
+    color: #188E56;
+}
+
+
+
 .content_body_home > .container > .img_side{
     width: 40%;
     background-color: none;
