@@ -86,13 +86,13 @@
 }
 
 
-
 .content_body_home > .container > .img_side{
     width: 40%;
     background-color: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: none;
 }
 
 
