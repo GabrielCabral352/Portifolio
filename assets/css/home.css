@@ -93,7 +93,7 @@
     border: 2px solid #1F282F;
     width: 150px;
     height: 45px;
-    font-size: 1.1dvw;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +157,6 @@
         
     }
     .content_body_home > .container > .text_side > .text_holder > .about_button>p{
-        font-size: 2dvw;
     }
     .content_body_home > .container > .text_side > .text_holder > .about_button{
         margin-top: 25px;
