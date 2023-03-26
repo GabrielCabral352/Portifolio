@@ -51,14 +51,15 @@
     border-right: .05em solid #188E56;
     width: 90%;
     white-space: nowrap;
+
     animation: 
-    typing 2s steps(40, end),
-    blink-caret .4s step-end infinite;
+    typing 1s steps(100, end),
+    blink-caret 1s step-end infinite;
     
 }
 
 @keyframes typing {
-    from { width: 0 }
+    from { width: 15% }
     to { width: 90% }
   }
   

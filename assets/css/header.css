@@ -51,6 +51,10 @@
     list-style-type: none;
     padding: 5px;
 }
+
+.__selected_text{
+    color: #188E56;
+}
 .__nav_item > a{
     text-decoration: none;
     font-family: 'Quicksand';
@@ -65,11 +69,13 @@
     border-bottom: 2px solid;
     transition: 0.3s ease;
 }
-.__nav_item > a[tabindex]:focus{
+
+
+/*.__nav_item > a[tabindex]:focus{
     color: #188E56;
     border-bottom: 2px solid;
     transition: 0.3s ease;
-}
+}*/
 .bc_holder{
     width: 100vw;
     height: 100vh;
@@ -151,3 +157,14 @@
 }
 
 
+
+
+.__selected{
+    color: #188E56 !important;
+    
+}
+
+.__selected_text{
+    color: #188E56 !important;
+    border-bottom: 2px solid #188E56 !important;
+}
