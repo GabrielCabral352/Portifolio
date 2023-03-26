@@ -171,7 +171,7 @@
 
     }
     .content_body_home > .container > .text_side > .text_holder > .about_button{
-        margin-top: 25px;
+        margin-top: 2dvh;
     }
     .content_body_home > .container > .text_side > .text_holder > .social_media{
         margin-top: 16px;
