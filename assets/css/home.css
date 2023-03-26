@@ -144,19 +144,30 @@
         width: 100%; 
     }
     .content_body_home > .container > .text_side > .text_holder{
-        width: 55%;
+        width: 90%;
     }
     .content_body_home > .container > .img_side > .img_holder > img{
         height: auto;
         width: 80dvw;
         padding-right: 0px;
     }
+    .content_body_home > .container > .text_side > .text_holder > .desc > .greetings{
+        font-size: 7dvw;
+        width: 100%;
+        
+    }
     .content_body_home > .container > .text_side > .text_holder > .desc > .my_name{
-
-        width: 90%;
+        font-size: 10dvw;
+        width: 100%;
+        
+    }
+    .content_body_home > .container > .text_side > .text_holder > .desc > .skills{
+        font-size: 6dvw;
+        width: 100%;
         
     }
     .content_body_home > .container > .text_side > .text_holder > .about_button>p{
+
     }
     .content_body_home > .container > .text_side > .text_holder > .about_button{
         margin-top: 25px;
