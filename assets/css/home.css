@@ -22,7 +22,7 @@
 .content_body_home > .container > .text_side{
     width: 60%;
     background-color: none;
-    font-family: 'Quicksand';
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@
     font-size: 5.5dvw;
     font-weight: bold;
     overflow: hidden;
-    border-right: .05em solid #188E56;
+    border-right: .05em solid var(--website-green);
     width: 90%;
     white-space: nowrap;
 
@@ -66,7 +66,7 @@
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #188E56; }
+    50% { border-color: var(--website-green); }
   }
 
 .content_body_home > .container > .text_side > .text_holder > .desc > .skills{
@@ -76,10 +76,10 @@
 }
 
 .content_body_home > .container > .text_side > .text_holder > .desc > .skills > span{
-    color: #F0AF2C;
+    color: var(--website-yellow);
 }
 .content_body_home > .container > .text_side > .text_holder > .desc > .my_name > span{
-    color: #188E56;
+    color: var(--website-green);
 }
 .content_body_home > .container > .text_side > .text_holder > .about_button{
     text-decoration: none;
@@ -103,8 +103,8 @@
 }
 
 .content_body_home > .container > .text_side > .text_holder > .about_button>p:hover{
-    border: 2px solid #0A1115;
-    color: #188E56;
+    border: 2px solid var(--website-bg-2);
+    color: var(--website-green);
     cursor: pointer;
 }
 .content_body_home > .container > .text_side > .text_holder > .social_media{
